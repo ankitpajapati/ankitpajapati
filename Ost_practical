@@ -1,0 +1,21 @@
+w="y"
+while w=="y":
+    print("\t\t\t\t\t\t\n\n\t------------------------MAIN MENU-------------------------------- \n\t\t1. addition two nos\n\t\t 2. subtraction of two nos\n\t\t3. division of two nos \n\t\t4. multiplication of two nos \n\t\t5. mod of a number \n\t\t6. floor division")
+    op=input("Enter the option")
+    f=int(input("Enter the frist number : "))
+    s=int(input("Enter the second number :"))
+    if op=="1":
+        print("Addition of the given number is : ",f+s)
+    elif op=="2":
+        print("Subtraction of the given number is : ",abs(f-s))
+    elif op=="3":
+        print("Division of the given number is : ",f/s)
+    elif op=="4":
+        print("Multiplication of the given number is : ",f*s)
+    elif op=="5":
+        print("Mod of the given number is : ",f%s)
+    elif op=="6":
+        print("Floor of the given number is : ",f//s)
+    else:
+        print("\t\t\tINVALID OPTION")
+    w=input("Do you want to continue (y/n)")
